@@ -9,12 +9,11 @@
     font-size: 36px;
 }
 
-.three {
+.adjust-font-size {
     font-size: 24px;
 }
 
 #four {
-    font-size: 24px;
     font-weight: bold;
     background-color: hsl(120, 73%, 75%);
 }
