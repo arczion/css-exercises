@@ -17,8 +17,17 @@ body {
   font-weight: 800;
 }
 
-
+/* added simpler solution just use an id as below :
 .button#confirm-button {
+  background: green;
+  color: white;
+  font-weight: bold;
+} 
+
+or .button.confirm
+*/
+
+#confirm-button {
   background: green;
   color: white;
   font-weight: bold;
@@ -30,14 +39,22 @@ body {
   font-size: 20px;
 }
 
-.text.text.child {
-  color: rgb(0, 0, 0);
-  font-weight: 800;
-  font-size: 14px;
-}
-
 div.text {
   color: rgb(0, 0, 0);
   font-size: 22px;
   font-weight: 100;
 }
+
+/* incorrect better would be .text .child
+.text.text.child {
+  color: rgb(0, 0, 0);
+  font-weight: 800;
+  font-size: 14px;
+}
+*/
+.text .child {
+  color: rgb(0, 0, 0);
+  font-weight: 800;
+  font-size: 14px;
+}
+
