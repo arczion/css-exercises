@@ -12,7 +12,7 @@ body {
   width: 400px;
   background: white;
   margin: 16px auto;
-  padding: 5px;
+  padding: 8px;
 }
 
 .title,
@@ -21,7 +21,11 @@ body {
   background: dodgerblue;
   margin: 5px;
   padding: 15px;
+}
+.button-container{
+    text-align: center;
 
+}
 
 
 button {
