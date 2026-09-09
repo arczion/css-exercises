@@ -2,12 +2,13 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
-  display: flex;
-  justify-content:space-between;
-  margin: auto;
-  align-items: center;
-  padding: 20px;
-  flex: 1 1 auto;
+  display: flex; /* correct */
+  justify-content:space-between; /* correct */
+  /* margin: auto; not required */
+  align-items: center; /* correct */
+  /* correct updated the value to 8px */
+  padding: 20px; 
+  /* flex: 1 1 auto; not required */
 
 }
 
@@ -23,11 +24,11 @@
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
-  margin: 0%;
-  padding: 0%;
-  display: flex;
-  gap: 10px;
-  flex: 1;
+  margin: 0; /* just 0 is good % not required */
+  padding: 0;
+  display: flex; /* correct */
+  gap: 8px; /* correct */
+  /* flex: 1; not required*/
 }
 
 a {
