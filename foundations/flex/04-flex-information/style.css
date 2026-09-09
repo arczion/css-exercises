@@ -10,29 +10,33 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
-  display: flex;
-  justify-content: center;
+  /* display: flex; */
+  /* justify-content: center; */
   margin-bottom: 32px;
 }
 
 .rows {
   display: flex;
-  gap: 52px;
   justify-content: center;
+  gap: 52px;
   /* align-content: center; */
 
 }
 
 .item {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  flex-basis: 200px;
-  gap: 10px;
-  align-items: center;
+  /* removed unneccesary things commented below */
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* flex-wrap: wrap; */
+  /* flex-basis: 200px; i used this, but max-width also works  */
+  max-width: 200px;
+  /* gap: 10px; */
+  /* align-items: center; */
 }
 
-.text {
+
+/* apply to body instead, i applied on .text classes */
+body {
   text-align: center;
 }
 
