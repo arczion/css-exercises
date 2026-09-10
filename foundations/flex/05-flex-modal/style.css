@@ -9,7 +9,7 @@ body {
   margin: 0;
   background: #aaa;
   color: #333;
-  /* I'll give you this one for free lol */
+  /* I'll give you this one for free */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -21,6 +21,8 @@ body {
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
   display: flex;
+  gap: 16px;
+  padding: 16px;
 }
 
 .icon {
@@ -70,21 +72,16 @@ button.cancel {
   color: royalblue;
 }
 
-.header{
+
+.header {
   display: flex;
+  align-items: center;
   justify-content: space-between;
-  font-size: large;
-  font-weight: bold;
-  align-content: center;
-}
-.wrapper {
-  display: flex;
-  margin: 8px;
-  gap: 8px;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 8px;
 }
 
-.left-content {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
+.text {
+  margin-bottom: 16px;
 }
